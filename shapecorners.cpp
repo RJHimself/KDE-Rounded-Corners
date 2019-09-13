@@ -83,7 +83,7 @@ ShapeCornersEffect::ShapeCornersEffect() : KWin::Effect(), m_shader(0)
 }
 
 void ShapeCornersEffect::windowMaximizedStateChanged(KWin::EffectWindow *w, bool horizontal, bool vertical) {
-    if ((horizontal == true) || (vertical == true))
+    if ((horizontal == true) && (vertical == true))
         applyEffect = w;
     else
         applyEffect = NULL;
