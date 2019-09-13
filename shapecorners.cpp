@@ -27,6 +27,10 @@
 #include <kwinglutils.h>
 #include <QMatrix4x4>
 
+
+int cornerRadius = 8;
+
+
 KWIN_EFFECT_FACTORY_SUPPORTED_ENABLED(  ShapeCornersFactory,
                                         ShapeCornersEffect,
                                         "shapecorners.json",
@@ -172,7 +176,7 @@ ShapeCornersEffect::reconfigure(ReconfigureFlags flags)
 {
     Q_UNUSED(flags)
     m_alpha = 63;
-    setRoundness(5);
+    setRoundness(cornerRadius);
 }
 
 void
