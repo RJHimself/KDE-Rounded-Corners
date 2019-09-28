@@ -7,7 +7,7 @@ When you disable window borders in System Settings --> Application Style --> Win
 This effect rounds the corners of your windows.
 
 
-![After](https://raw.githubusercontent.com/alex47/KDE-Rounded-Corners/master/screenshots/after.PNG)
+![After](https://raw.githubusercontent.com/RJHimself/KDE-Rounded-Corners/master/screenshots/after.PNG)
 
 # Dependencies:
 Debian based (Ubuntu, Kubuntu, KDE Neon):
